@@ -1,0 +1,236 @@
+@import url(https://fonts.google.com/specimen/Bai+Jamjuree);
+
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+h2{
+font-size: 32px;
+font-weight: 600;
+}
+
+h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.p-5{
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+
+.p-3{
+    padding-top: 30px; 
+    padding-bottom: 30px; 
+}
+
+.p-4{
+    padding: 50px 80px 50px 80px;
+}
+
+
+.container{
+    max-width: 1080px;
+    display: flex;
+    margin: 0 auto;
+  
+}
+
+.flex-container{
+    max-width: 90%;
+    margin: 0 auto;
+  
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 20px;
+  }
+
+  .grid-image{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    grid-gap: 50px;
+    max-width: 1080px;
+  }
+
+
+.content-center{
+    display: flex;
+    justify-content: center;
+}
+
+.navbar{
+    background-image: url("./images/bg-header-desktop.png");
+    background-size: cover;
+    background-position: center; /* Center the image */
+  background-repeat: no-repeat;
+  padding: 100px 0px 50px 0px;
+}
+
+.logo-content{
+    padding: 20px;
+}
+
+.logo-image {
+ width: 100px;
+ height: 100px;
+}
+
+.logo-media{
+ display: flex;
+ align-items: center;
+}
+
+.history-section{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.history-body{
+   text-align: center;
+ 
+}
+
+.history-heading{
+font-size: 40px;
+font-weight: 600;
+}
+
+.history-body{
+font-size: 18px;
+max-width: 650px;
+}
+
+.btn{
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    border-radius: 50px;
+    box-shadow:0 100px 80px rgba(0, 0, 0, 0.33);
+    margin: 5px
+;
+}
+
+.btn-green{
+    background-color: hsl(171, 66%, 44%);
+    border: 5px solid #26baa4;
+}
+
+.btn-blue{
+    background-color: #6173ff;
+    border: 5px solid#6173ff;
+}
+
+.btn-space{
+    display: flex;
+    justify-content: center;
+}
+
+.computer-content{
+    display: flex;
+    justify-content: space-between;  
+}
+
+.super-media{
+
+}
+
+
+.computer-snippets{
+max-width: 350px;
+padding: 10px;
+}
+
+
+.super-content{
+   text-align: center;
+}
+
+.computer-img{
+width: 90%;
+}
+.footer{
+    background-color: gainsboro;
+}
+
+.footer-logo{
+ width: 70px;
+}
+
+.list-item{
+    list-style-type: none;
+  
+}
+
+.list-item li{
+    font-size: 18px;
+    padding: 5px
+}
+
+.social-list{
+    list-style-type: none;
+   display: inline-flex;
+}
+
+.social-list li{
+    margin: 5px;
+}
+
+.social-media{
+    color: #000000;
+    font-size: 18px;
+}
+
+.device-content{
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+   
+      
+
+    .content-center{
+        display: flex;
+        justify-content: center;
+    }
+
+    .history-content{
+        text-align: center;
+    }
+
+
+    .computer-content{
+        display: flex;
+        flex-direction: column; 
+      text-align: center;
+    } 
+
+    .btn-space{
+        display: flex;
+        display: block;
+        
+    }
+
+    .grid-container{
+        padding: 0;
+    }
+
+    .grid-image{
+        display: block;
+        padding: 0%;
+        text-align: center;
+    }
+
+    .super-media-2{
+        margin-bottom: 50px;
+    }
+
+
+}
+
